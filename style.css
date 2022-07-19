@@ -60,11 +60,11 @@ h3.head-color{
     transition: 0.7s;
 }
 .plus.open-list:before {
-    transform: rotate(45deg);
+    transform: rotate(135deg);
     transition: 0.7s;
     }
 .plus.open-list:after {
-    transform: rotate(-45deg);
+    transform: rotate(-135deg);
     transition: 0.7s;
 }
 .text{
@@ -74,7 +74,6 @@ h3.head-color{
     font-size: 20px;
     line-height: 150%;
     color: #000402;
-
 }
 /* Появление текста с анимацией */
 .text.open-text{
